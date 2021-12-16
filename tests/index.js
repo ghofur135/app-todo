@@ -28,7 +28,7 @@ describe("Todos", () => {
     });
 
     it("should not get a single todo", (done) => {
-      const id = 5;
+      const id = 10;
       chai.request(app)
         .get(`/todos/${id}`)
         .end((err, res) => {
