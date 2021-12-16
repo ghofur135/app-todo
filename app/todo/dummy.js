@@ -15,8 +15,13 @@ const todos = [
       createdAt: new Date()
     },
     {
-      id: 3,
+      id: 4,
       text: 'Ibadah',
+      createdAt: new Date()
+    },
+    {
+      id: 5,
+      text: 'Mandi Pagi Buta',
       createdAt: new Date()
     },
   ];
